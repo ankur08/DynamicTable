@@ -15,6 +15,7 @@
 		9253352D1D80250E0090F60C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9253352B1D80250E0090F60C /* LaunchScreen.storyboard */; };
 		925335381D80250E0090F60C /* DynamicTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 925335371D80250E0090F60C /* DynamicTableTests.m */; };
 		925335431D80250E0090F60C /* DynamicTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 925335421D80250E0090F60C /* DynamicTableUITests.m */; };
+		925335521D80273E0090F60C /* RowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 925335511D80273D0090F60C /* RowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9253353E1D80250E0090F60C /* DynamicTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		925335421D80250E0090F60C /* DynamicTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicTableUITests.m; sourceTree = "<group>"; };
 		925335441D80250E0090F60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925335501D80273D0090F60C /* RowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowViewController.h; sourceTree = "<group>"; };
+		925335511D80273D0090F60C /* RowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				9253352B1D80250E0090F60C /* LaunchScreen.storyboard */,
 				9253352E1D80250E0090F60C /* Info.plist */,
 				9253351D1D80250E0090F60C /* Supporting Files */,
+				925335501D80273D0090F60C /* RowViewController.h */,
+				925335511D80273D0090F60C /* RowViewController.m */,
 			);
 			path = DynamicTable;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				925335251D80250E0090F60C /* ViewController.m in Sources */,
+				925335521D80273E0090F60C /* RowViewController.m in Sources */,
 				925335221D80250E0090F60C /* AppDelegate.m in Sources */,
 				9253351F1D80250E0090F60C /* main.m in Sources */,
 			);

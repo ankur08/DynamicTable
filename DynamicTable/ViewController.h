@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIScrollView *ScollView;
+- (IBAction)AddView:(id)sender;
+- (IBAction)removeView:(id)sender;
 
 @end
 
